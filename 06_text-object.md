@@ -34,7 +34,7 @@ if (flag == true) {
 }
 ^
 
-### ca" & ci" / ca" & ci"
+### da" & di" / ca" & ci"
 
 echo("hogefuga" + $num)
       ^^^^^^^^
@@ -48,6 +48,23 @@ echo("hogefuga" + $num)
 |e|cho("hogefuga" + $num)
  ^
 CURSOR
+
+### da[ & di[ / ca[ & ci[
+
+{"foo": [1, null, 12345], "baz": {"foo": [true, "bar"], "baz": "qux"}}
+         ^^^^^^^^^^^^^^
+
+{"foo": [1, null, 12345], "baz": {"foo": [true, "bar"], "baz": "qux"}}
+        ^^^^^^^^^^^^^^^^
+
+#### Review
+
+{"foo": [1, null, 12345], "baz": {"foo": [true, "bar"], "baz": "qux"}}
+ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+{"foo": [1, null, 12345], "baz": {"foo": [true, "bar"], "baz": "qux"}}
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 
 ### cat & cit / cat & cit
 
@@ -84,7 +101,6 @@ CURSOR
 
  Hello  World
 ^     ^
-
 
 ### ysiw<p>
 
