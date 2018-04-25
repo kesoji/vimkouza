@@ -42,7 +42,6 @@ echo("hogefuga" + $num)
 echo("hogefuga" + $num)
      ^^^^^^^^^^
 
-
 #### TIPS
 
 |e|cho("hogefuga" + $num)
@@ -64,7 +63,6 @@ CURSOR
 
 {"foo": [1, null, 12345], "baz": {"foo": [true, "bar"], "baz": "qux"}}
                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 
 ### cat & cit / cat & cit
 
@@ -108,7 +106,6 @@ CURSOR
 ^     ^
 
 ### v -> select from "H" to "o" -> S"
-
 
  Hello  World
 ^     ^
