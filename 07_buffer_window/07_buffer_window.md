@@ -1,7 +1,7 @@
 
 ## Practice1
 
-下の4コマンドを覚えて順番に実行して下さい
+下の5コマンドを覚えて順番に実行して下さい
 
 ```
 :e file1.txt
@@ -51,29 +51,8 @@ Practice3でやったように、 s + hjkl でウィンドウ間を移動でき�
 このWindowまで戻ってきて、 下に貼り付けて下さい
 
 ++++++この間に++++++
-" Lesson07
-" Window operation
-nnoremap s <Nop>
-nnoremap ss :<C-u>split<CR>
-nnoremap sv :<C-u>vsplit<CR>
-" Move around window
-nnoremap sj <C-w>j
-nnoremap sk <C-w>k
-nnoremap sl <C-w>l
-nnoremap sh <C-w>h
-" Move window
-nnoremap sJ <C-w>J
-nnoremap sK <C-w>K
-nnoremap sL <C-w>L
-nnoremap sH <C-w>H
 
-" Lesson07
-" quickfix and vim[grep
-nnoremap <C-n> :cnext<CR>
-nnoremap <C-p> :cprevious<CR>
 +++++貼り付けて+++++
-
-
 
 ## Pracitce5
 s + HJKL (大文字) で、 ウィンドウ自体を移動できます。
@@ -86,6 +65,4 @@ s + HJKL (大文字) で、 ウィンドウ自体を移動できます。
 Closeは `:q` つまり普通に消します。
 vim講座で入れたmappingを使いましょう。
 `<Space>q`です。
-
-## Practice7
 
