@@ -3,8 +3,9 @@
 ## Text Object Practice
 
 Let's modify "^^^^" !
+And undo with "u" !
 
-### daw & diw / caw & ciw
+### diw & daw / ciw & caw
 
 The quick brown fox jumps over the lazy dog
           ^^^^^
@@ -12,7 +13,7 @@ The quick brown fox jumps over the lazy dog
 The quick brown fox jumps over the lazy dog
           ^^^^^^
 
-### da( & di( / ca( & ci(
+### di( & dw( / ci( & cw(
 
 if (flag == true)
     ^^^^^^^^^^^^
@@ -20,7 +21,7 @@ if (flag == true)
 if (flag == true)
    ^^^^^^^^^^^^^^
 
-### da{ & di{ / ca{ & ci{
+### di{ & da{ / ci{ & ca{
 
 if (flag == true) {
     hoge = fuga
@@ -34,7 +35,7 @@ if (flag == true) {
 }
 ^
 
-### da" & di" / ca" & ci"
+### di" & da" / ci" & ca"
 
 echo("hogefuga" + $num)
       ^^^^^^^^
@@ -48,7 +49,7 @@ echo("hogefuga" + $num)
  ^
 CURSOR
 
-### da[ & di[ / ca[ & ci[
+### di[ & da[ / ci[ & ca[
 
 {"foo": [1, null, 12345], "baz": {"foo": [true, "bar"], "baz": "qux"}}
          ^^^^^^^^^^^^^^
@@ -64,7 +65,7 @@ CURSOR
 {"foo": [1, null, 12345], "baz": {"foo": [true, "bar"], "baz": "qux"}}
                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-### cat & cit / cat & cit
+### dat & dit / cat & cit
 
 <div id="hogefuga">
     <p>fizzbuzz</p>^
@@ -95,17 +96,17 @@ CURSOR
 "Hello World!"
 ^            ^
 
-### ysiw]
+### ysiw] or ysw]
 
  Hello  World
 ^     ^
 
-### ysiw<p>
+### ysiw<p> or ysw<p>
 
  Hello  World
 ^     ^
 
 ### v -> select from "H" to "o" -> S"
 
- Hello  World
+ "Hello  Wor"ld
 ^     ^
