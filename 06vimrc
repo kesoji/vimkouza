@@ -1,0 +1,40 @@
+syntax enable
+"colorscheme desert
+
+" Lesson02
+" Easy Escape
+inoremap <silent>jj <ESC>
+inoremap <silent>jk <ESC>
+
+" Lesson03
+" Edit and Source vimrc easily.
+nnoremap <Space>ev :vsplit $MYVIMRC<CR>
+nnoremap <Space>sv :source $MYVIMRC<CR>
+
+" Lesson05
+" Close with <Space>
+nnoremap <Space>w :<C-u>w<CR>
+nnoremap <Space>W :<C-u>wq<CR>
+nnoremap <Space>q :<C-u>q<CR>
+nnoremap <Space>Q :<C-u>q!<CR>
+
+" Lesson05
+" Go down as you see
+noremap j gj
+noremap k gk
+noremap gj j
+noremap gk k
+
+" Lesson05
+" We don't want to reach for ^ or $.
+noremap <Space>h ^
+"noremap <Space>h 0 #好みで
+noremap <Space>l $
+
+" Lesson06
+" Plugin
+!curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+call plug#begin('~/.vim/plugged')
+Plug 'tpope/vim-surround'
+call plug#end()
+PlugInstall

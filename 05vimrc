@@ -1,0 +1,37 @@
+syntax enable
+"colorscheme desert
+
+" BE VIMMER! // Lesson 05 only
+noremap   <Up>     <nop>
+noremap   <Down>   <nop>
+noremap   <Left>   <nop>
+noremap   <Right>  <nop>
+inoremap  <Up>     <nop>
+inoremap  <Down>   <nop>
+inoremap  <Left>   <nop>
+inoremap  <Right>  <nop>
+
+" Easy Escape
+inoremap <silent>jj <ESC>
+inoremap <silent>jk <ESC>
+
+" Edit and Source vimrc easily.
+nnoremap <Space>ev :vsplit $MYVIMRC<CR>
+nnoremap <Space>sv :source $MYVIMRC<CR>
+
+" Close with <Space>
+nnoremap <Space>w :<C-u>w<CR>
+nnoremap <Space>W :<C-u>wq<CR>
+nnoremap <Space>q :<C-u>q<CR>
+nnoremap <Space>Q :<C-u>q!<CR>
+
+" Go down as you see
+noremap j gj
+noremap k gk
+noremap gj j
+noremap gk k
+
+" We don't want to reach for ^ or $.
+noremap <Space>h ^
+"noremap <Space>h 0 #好みで
+noremap <Space>l $
