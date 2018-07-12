@@ -1,4 +1,4 @@
-# Vim kouza supplemental text
+# Vim kouza supplemental text for Lesson 06
 
 ## Text Object Practice
 
