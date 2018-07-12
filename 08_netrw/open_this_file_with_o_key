@@ -1,0 +1,6 @@
+Great!
+You can close this window by simple close (":q")
+Or you may remain this window. Moving between windows is "<C-w><C-w>"
+And open "dir1" with Hitting Enter.
+
+If you accidentaly open file with Enter and netrw has gone, type ":Explore" again.
